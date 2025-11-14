@@ -1,20 +1,750 @@
 [
-{
-"id": "2-5",
-"title": "US Navy Mission",
-"expectation": "Recall verbatim.",
-"excerpt": "The mission of the United States Navy is to maintain, train and equip combat-ready Naval forces capable of winning wars, deterring aggression and maintaining freedom of the seas."
-},
-{
-"id": "2-6",
-"title": "NROTC Mission",
-"expectation": "Recall verbatim.",
-"excerpt": "The purpose of the Naval Reserve Officers Training Corps is to educate and train qualified young men and women for service as commissioned officers in the Navy and Marine Corps."
-},
-{
-"id": "1-3",
-"title": "Addressing and Greeting Personnel",
-"expectation": "Be familiar with the proper address and greeting for military personnel of any rank.",
-"excerpt": "Midshipmen shall address officers by rank and last name (e.g., 'Good morning, Lieutenant Smith') and enlisted personnel by rank and last name; greetings are rendered respectfully and appropriately for the setting."
+  {
+    "id": "1-1a",
+    "title": "MIDREGs — Leadership Lab SOP (Response Procedure)",
+    "expectation": "Recall exact procedure",
+    "excerpt": {
+      "ActiveDuty+MIDN": [
+        "Remain seated",
+        "Greeting of the day + sir/ma’am/GySgt",
+        "Speak"
+      ],
+      "CO/XO/Guests": [
+        "Stand at parade rest",
+        "Greeting of the day, sir/ma’am, MIDN LastName",
+        "Ask/provide response",
+        "Remain standing until they finish speaking or MIDN is told to sit"
+      ]
+    },
+    "src": ":contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "id": "1-1b",
+    "title": "MIDREGs — Inclement Weather & PT/NWUs",
+    "expectation": "Recall key facts.",
+    "excerpt": [
+      "MIDN are expected to bring a full hydration source to all PT evolutions",
+      "MIDN will form up in track suits regardless of temperature",
+      "Plain dark blue/black jacket to/from PT ok (no visible brand); remove for form up",
+      "Plain black bag (no visible brand) allowed to/from PT",
+      "NWU fleece permitted as jacket to/from PT"
+    ],
+    "src": ":contentReference[oaicite:2]{index=2}"
+  },
+  {
+    "id": "1-1c",
+    "title": "MIDREGs — Electronic Communications",
+    "expectation": "Recall key facts.",
+    "excerpt": {
+      "Email_Primary": "Clear, concise, formal; prefer POW for broad announcements.",
+      "Salutations_to_4C-2C": "“Good [time], MIDN Doe,” … “R/” or “V/r”, MIDN 1/C Jones",
+      "Salutations_to_1C+Staff": "“Good [time], Sir/Ma’am,” … “V/r”, MIDN 1/C Jones",
+      "Addresses": "Use name+rank; not class year in greeting line",
+      "SignOffs": "Include rank + class year; billet if applicable (e.g., “MIDN 1/C Jones\\nBnXO”)",
+      "[ACTION REQUIRED]": "Prefix subject when tasking",
+      "Phone_Text": "Use for urgency; be respectful; no prompt after-hours replies unless extreme urgency"
+    },
+    "src": ":contentReference[oaicite:3]{index=3}"
+  },
+
+  {
+    "id": "1-2",
+    "title": "Chain of Command (FA25)",
+    "expectation": "Recall verbatim.",
+    "excerpt": [
+      "Commander in Chief — The Honorable Donald J. Trump",
+      "Secretary of Defense — The Honorable Peter B. Hegseth",
+      "Secretary of the Navy — The Honorable John C. Phelan",
+      "Chief of Naval Operations — ADM Daryl Caudle",
+      "Commandant of the Marine Corps — Gen Eric Smith",
+      "Chief of Naval Personnel — VADM Jeffrey Czerewko",
+      "NETC — RADM Gregory Huffman",
+      "NSTC — RDML Matthew Pottenburgh",
+      "MCPON — MCPON John Perryman",
+      "SMMC — SMMC Carlos Ruiz"
+    ],
+    "notes": "Subject to change; MIDN must know current office holders.",
+    "src": ":contentReference[oaicite:4]{index=4}"
+  },
+
+  {
+    "id": "1-3",
+    "title": "Addressing and Greeting Personnel",
+    "expectation": "Recall key facts.",
+    "excerpt": {
+      "GreetingsOfDay": {
+        "0000-1159": "Good morning",
+        "1200-1659": "Good afternoon",
+        "1700-2359": "Good evening"
+      },
+      "Groups": {
+        "Men": "gentlemen",
+        "Women": "ladies",
+        "Mixed": "ladies and gentlemen",
+        "EdgeCases": "Address senior gender first; pause or use 'and' in writing"
+      },
+      "Officers": [
+        "Use rank/title + last name (e.g., 'Lieutenant Smith')",
+        "CO of ship/station is 'Captain' regardless of rank",
+        "Drop modifiers (LCDR → 'Commander Smith', LTJG → 'Lieutenant Brown')",
+        "Medical/Dental: 'Doctor' or rank; Chaplain: 'Chaplain'"
+      ],
+      "Enlisted_Navy": [
+        "CPO: 'Chief (Petty Officer) Smith' / 'Chief'",
+        "SCPO/MCPO: 'Senior Chief' / 'Master Chief'",
+        "Other petty officers: use rate or 'Petty Officer'",
+        "E-1–E-3: 'Seaman/Fireman [Name]'"
+      ],
+      "Enlisted_USMC": "Use full rank (e.g., 'Staff Sergeant Smith'); never shorten for E-6+.",
+      "Formality": "Use most formal form when in doubt"
+    },
+    "src": ":contentReference[oaicite:5]{index=5}"
+  },
+
+  {
+    "id": "1-4a",
+    "title": "Saluting — Custom & Exceptions",
+    "expectation": "Recall key facts.",
+    "excerpt": [
+      "Right hand customary; left hand allowed if right is injured/occupied",
+      "Navy/USMC: salute covered; Army/AF may salute uncovered — adapt to setting ('When in Rome…')"
+    ],
+    "src": ":contentReference[oaicite:6]{index=6}"
+  },
+  {
+    "id": "1-4b",
+    "title": "Saluting — How to Salute",
+    "expectation": "Recall key facts.",
+    "excerpt": [
+      "From attention if halted; keep erect while walking; slow from double",
+      "Upper arm parallel to deck; forearm 45°; palm slightly inward; fingers joined; forefinger to cap brim right of eye",
+      "Face/look at person; allow ~6 steps for exchange",
+      "Hold until returned/acknowledged or passed",
+      "Accompany with verbal greeting; if both hands occupied, verbal greeting only",
+      "If on cell: pause, drop phone, attention, salute"
+    ],
+    "src": ":contentReference[oaicite:7]{index=7}"
+  },
+  {
+    "id": "1-4c",
+    "title": "Saluting — When to Salute",
+    "expectation": "Recall key facts.",
+    "excerpt": [
+      "All senior officers (U.S. & allied); USMM & USPHS officers",
+      "Recognized seniors even in civilian clothes/uncovered",
+      "Medal of Honor recipients (regardless of rank/rate)",
+      "Officer of the Deck; division/detail muster lead",
+      "Walk/stand on senior’s left; salute when they do",
+      "Group: first to see calls 'Attention'; all face and salute",
+      "Passing senior: pass left, salute abeam, 'By your leave…' — 'Very well'",
+      "Crowded: salute when addressing/being addressed",
+      "Return salutes from children/retirees",
+      "When in doubt, salute"
+    ],
+    "src": ":contentReference[oaicite:8]{index=8}"
+  },
+  {
+    "id": "1-4d",
+    "title": "Saluting — When NOT to Salute",
+    "expectation": "Recall key facts.",
+    "excerpt": [
+      "In formation (leader salutes/gives command)",
+      "Engaged in work or part of a work detail (leader salutes)",
+      "Carrying items in both hands (verbal greeting ok)",
+      "Public places where inappropriate (bus, line, etc.)",
+      "At mess (sit at attention if addressed)",
+      "Combat/simulated combat conditions"
+    ],
+    "src": ":contentReference[oaicite:9]{index=9}"
+  },
+
+  {
+  "id": "1-5",
+  "title": "Ranks and Insignia (USN/USMC)",
+  "expectation": "Recall key facts.",
+  "excerpt": {
+    "E-1": {
+      "Navy": {
+        "Rank": "Seaman Recruit",
+        "Abbr": "SR",
+        "Collar": "No insignia",
+        "Sleeve": "No insignia",
+        "Shoulder": "None"
+      },
+      "MarineCorps": {
+        "Rank": "Private",
+        "Abbr": "Pvt",
+        "Insignia": "No insignia"
+      }
+    },
+    "E-2": {
+      "Navy": {
+        "Rank": "Seaman Apprentice",
+        "Abbr": "SA",
+        "Collar": "Two diagonal white stripes (NWU tab)",
+        "Sleeve": "Two diagonal white stripes (SDB)",
+        "Shoulder": "None"
+      },
+      "MarineCorps": {
+        "Rank": "Private First Class",
+        "Abbr": "PFC",
+        "Insignia": "One chevron"
+      }
+    },
+    "E-3": {
+      "Navy": {
+        "Rank": "Seaman",
+        "Abbr": "SN",
+        "Collar": "Three diagonal white stripes (NWU tab)",
+        "Sleeve": "Three diagonal white stripes (SDB)",
+        "Shoulder": "None"
+      },
+      "MarineCorps": {
+        "Rank": "Lance Corporal",
+        "Abbr": "LCpl",
+        "Insignia": "One chevron with crossed rifles"
+      }
+    },
+    "E-4": {
+      "Navy": {
+        "Rank": "Petty Officer Third Class",
+        "Abbr": "PO3",
+        "Collar": "Eagle + one red chevron (working uniform)",
+        "Sleeve": "Eagle + one white chevron (SDB)",
+        "Shoulder": "None"
+      },
+      "MarineCorps": {
+        "Rank": "Corporal",
+        "Abbr": "Cpl",
+        "Insignia": "Two chevrons with crossed rifles"
+      }
+    },
+    "E-5": {
+      "Navy": {
+        "Rank": "Petty Officer Second Class",
+        "Abbr": "PO2",
+        "Collar": "Eagle + two red chevrons",
+        "Sleeve": "Eagle + two white chevrons",
+        "Shoulder": "None"
+      },
+      "MarineCorps": {
+        "Rank": "Sergeant",
+        "Abbr": "Sgt",
+        "Insignia": "Three chevrons with crossed rifles"
+      }
+    },
+    "E-6": {
+      "Navy": {
+        "Rank": "Petty Officer First Class",
+        "Abbr": "PO1",
+        "Collar": "Eagle + three red chevrons",
+        "Sleeve": "Eagle + three white chevrons",
+        "Shoulder": "None"
+      },
+      "MarineCorps": {
+        "Rank": "Staff Sergeant",
+        "Abbr": "SSgt",
+        "Insignia": "Three chevrons above one rocker with crossed rifles"
+      }
+    },
+    "E-7": {
+      "Navy": {
+        "Rank": "Chief Petty Officer",
+        "Abbr": "CPO",
+        "Collar": "Gold fouled anchor with silver \"USN\"",
+        "Sleeve": "Eagle + one rocker + three chevrons",
+        "Shoulder": "None"
+      },
+      "MarineCorps": {
+        "Rank": "Gunnery Sergeant",
+        "Abbr": "GySgt",
+        "Insignia": "Three chevrons above two rockers with crossed rifles"
+      }
+    },
+    "E-8": {
+      "Navy": {
+        "Rank": "Senior Chief Petty Officer",
+        "Abbr": "SCPO",
+        "Collar": "Gold fouled anchor with one silver star and silver \"USN\"",
+        "Sleeve": "Eagle + one rocker + three chevrons + one star",
+        "Shoulder": "None"
+      },
+      "MarineCorps": {
+        "Rank": "Master Sergeant",
+        "Abbr": "MSgt",
+        "Insignia": "Three chevrons above three rockers with crossed rifles"
+      }
+    },
+    "E-9": {
+      "Navy": {
+        "Rank": "Master Chief Petty Officer / Master Chief Petty Officer of the Navy",
+        "Abbr": "MCPO / MCPON",
+        "Collar": "Gold fouled anchor with two silver stars and silver \"USN\"",
+        "Sleeve": "Eagle + one rocker + three chevrons + two stars",
+        "Shoulder": "Black shoulder board with gold fouled anchor, two silver stars, and \"USN\""
+      },
+      "MarineCorps": {
+        "Rank": "Sergeant Major",
+        "Abbr": "SgtMaj",
+        "Insignia": "Three chevrons above four rockers with a star"
+      }
+    },
+    "W-1": {
+      "Navy": {
+        "Rank": "Warrant Officer 1",
+        "Abbr": "WO1",
+        "Collar": "Gold bar with 2 blue squares",
+        "Sleeve": "N/A",
+        "Shoulder": "Gold bar with 2 blue squares"
+      },
+      "MarineCorps": {
+        "Rank": "Warrant Officer 1",
+        "Abbr": "WO",
+        "Insignia": "Red bar with two gold squares"
+      }
+    },
+    "W-2": {
+      "Navy": {
+        "Rank": "Chief Warrant Officer 2",
+        "Abbr": "CWO2",
+        "Collar": "Gold bar with 3 blue squares",
+        "Sleeve": "N/A",
+        "Shoulder": "Gold bar with 3 blue squares"
+      },
+      "MarineCorps": {
+        "Rank": "Chief Warrant Officer 2",
+        "Abbr": "CWO2",
+        "Insignia": "Red bar with 3 gold squares"
+      }
+    },
+    "W-3": {
+      "Navy": {
+        "Rank": "Chief Warrant Officer 3",
+        "Abbr": "CWO3",
+        "Collar": "Silver bar with two blue squares",
+        "Sleeve": "N/A",
+        "Shoulder": "Silver bar with two blue squares"
+      },
+      "MarineCorps": {
+        "Rank": "Chief Warrant Officer 3",
+        "Abbr": "CWO3",
+        "Insignia": "Silver bar with two red squares"
+      }
+    },
+    "W-4": {
+      "Navy": {
+        "Rank": "Chief Warrant Officer 4",
+        "Abbr": "CWO4",
+        "Collar": "Single silver bar with three blue squares",
+        "Sleeve": "N/A",
+        "Shoulder": "Single silver bar with three blue squares"
+      },
+      "MarineCorps": {
+        "Rank": "Chief Warrant Officer 4",
+        "Abbr": "CWO4",
+        "Insignia": "Single silver bar with three red squares"
+      }
+    },
+    "W-5": {
+      "Navy": {
+        "Rank": "Chief Warrant Officer 5",
+        "Abbr": "CWO5",
+        "Collar": "Single silver bar with one vertical blue stripe",
+        "Sleeve": "N/A",
+        "Shoulder": "Single silver bar with one vertical blue stripe"
+      },
+      "MarineCorps": {
+        "Rank": "Chief Warrant Officer 5",
+        "Abbr": "CWO5",
+        "Insignia": "Silver bar with one vertical red stripe"
+      }
+    },
+    "O-1": {
+      "Navy": {
+        "Rank": "Ensign",
+        "Abbr": "ENS",
+        "Collar": "One gold bar",
+        "Sleeve": "One ½″ gold stripe",
+        "Shoulder": "White background with one ½″ gold stripe"
+      },
+      "MarineCorps": {
+        "Rank": "Second Lieutenant",
+        "Abbr": "2ndLt",
+        "Insignia": "One gold bar"
+      }
+    },
+    "O-2": {
+      "Navy": {
+        "Rank": "Lieutenant Junior Grade",
+        "Abbr": "LTJG",
+        "Collar": "One silver bar",
+        "Sleeve": "One ¼″ + one ½″ gold stripe",
+        "Shoulder": "White background with one ¼″ + one ½″ gold stripe"
+      },
+      "MarineCorps": {
+        "Rank": "First Lieutenant",
+        "Abbr": "1stLt",
+        "Insignia": "One silver bar"
+      }
+    },
+    "O-3": {
+      "Navy": {
+        "Rank": "Lieutenant",
+        "Abbr": "LT",
+        "Collar": "Two silver bars",
+        "Sleeve": "Two ½″ gold stripes",
+        "Shoulder": "White background with two ½″ gold stripes"
+      },
+      "MarineCorps": {
+        "Rank": "Captain",
+        "Abbr": "Capt",
+        "Insignia": "Two silver bars"
+      }
+    },
+    "O-4": {
+      "Navy": {
+        "Rank": "Lieutenant Commander",
+        "Abbr": "LCDR",
+        "Collar": "Gold oak leaf",
+        "Sleeve": "One ½″ stripe with one ¼″ stripe above",
+        "Shoulder": "White background with same pattern"
+      },
+      "MarineCorps": {
+        "Rank": "Major",
+        "Abbr": "Maj",
+        "Insignia": "Gold oak leaf"
+      }
+    },
+    "O-5": {
+      "Navy": {
+        "Rank": "Commander",
+        "Abbr": "CDR",
+        "Collar": "Silver oak leaf",
+        "Sleeve": "Three ½″ gold stripes",
+        "Shoulder": "White background with three ½″ gold stripes"
+      },
+      "MarineCorps": {
+        "Rank": "Lieutenant Colonel",
+        "Abbr": "LtCol",
+        "Insignia": "Silver oak leaf"
+      }
+    },
+    "O-6": {
+      "Navy": {
+        "Rank": "Captain",
+        "Abbr": "CAPT",
+        "Collar": "Silver spread eagle",
+        "Sleeve": "Four ½″ gold stripes",
+        "Shoulder": "White background with four ½″ gold stripes"
+      },
+      "MarineCorps": {
+        "Rank": "Colonel",
+        "Abbr": "Col",
+        "Insignia": "Silver spread eagle"
+      }
+    },
+    "O-7": {
+      "Navy": {
+        "Rank": "Rear Admiral (Lower Half)",
+        "Abbr": "RDML",
+        "Collar": "One silver star",
+        "Sleeve": "One 1″ gold stripe",
+        "Shoulder": "White background with one silver star and one gold stripe"
+      },
+      "MarineCorps": {
+        "Rank": "Brigadier General",
+        "Abbr": "BGen",
+        "Insignia": "One silver star"
+      }
+    },
+    "O-8": {
+      "Navy": {
+        "Rank": "Rear Admiral (Upper Half)",
+        "Abbr": "RADM",
+        "Collar": "Two silver stars",
+        "Sleeve": "One 1″ gold stripe and one 1/2″ inch gold stripe",
+        "Shoulder": "White background with two silver stars and one gold stripe"
+      },
+      "MarineCorps": {
+        "Rank": "Major General",
+        "Abbr": "MajGen",
+        "Insignia": "Two silver stars"
+      }
+    },
+    "O-9": {
+      "Navy": {
+        "Rank": "Vice Admiral",
+        "Abbr": "VADM",
+        "Collar": "Three silver stars",
+        "Sleeve": "One 1″ gold stripe and two 1/2″ inch gold stripes",
+        "Shoulder": "White background with three silver stars and one gold stripe"
+      },
+      "MarineCorps": {
+        "Rank": "Lieutenant General",
+        "Abbr": "LtGen",
+        "Insignia": "Three silver stars"
+      }
+    },
+    "O-10": {
+      "Navy": {
+        "Rank": "Admiral",
+        "Abbr": "ADM",
+        "Collar": "Four silver stars",
+        "Sleeve": "One 1″ gold stripe and three 1/2″ inch gold stripes",
+        "Shoulder": "White background with four silver stars and one gold stripe"
+      },
+      "MarineCorps": {
+        "Rank": "General",
+        "Abbr": "Gen",
+        "Insignia": "Four silver stars"
+      }
+    }
+  }
 }
+,
+  {
+    "id": "1-6",
+    "title": "Midshipmen Ranks and Insignia",
+    "expectation": "Recall verbatim.",
+    "excerpt": "Verbatim content not included in provided text body (likely table/figures). Insert MIDN rank/insignia reference here before administering verbatim testing.",
+    "needs_insert": true,
+    "src": ":contentReference[oaicite:11]{index=11}"
+  },
+
+  {
+    "id": "1-7a",
+    "title": "Navy Policies — Definitions",
+    "expectation": "Recall key facts.",
+    "excerpt": {
+      "Hazing": "Strenuous/humiliating tasks without training purpose (often initiation).",
+      "Discrimination": "Unjust/prejudicial treatment based on protected categories.",
+      "Fraternization": "Unduly familiar relationships without respect to rank; favoritism risk.",
+      "SexualHarassment": "Unwanted sexual advances/remarks in professional/social context.",
+      "Policy": "Zero tolerance for all of the above."
+    },
+    "src": ":contentReference[oaicite:12]{index=12}"
+  },
+  {
+    "id": "1-7b",
+    "title": "SAPR — Definition of Sexual Assault",
+    "expectation": "Recall key facts.",
+    "excerpt": [
+      "Intentional sexual contact with force/threat/abuse of authority or without/ incapable of consent",
+      "Includes rape, non-consensual sodomy, indecent assault, attempts",
+      "Can occur regardless of gender, spousal relationship, or age",
+      "Consent ≠ lack of resistance; not given under force, threat, coercion, sleep, incapacitation, or unconsciousness"
+    ],
+    "src": ":contentReference[oaicite:13]{index=13}"
+  },
+  {
+    "id": "1-7c",
+    "title": "SAPR — Reporting Options",
+    "expectation": "Recall key facts.",
+    "excerpt": {
+      "Restricted": [
+        "Confidential; no official investigation; command notified 'an assault' occurred (limited details, no name)",
+        "Victim gets medical/mental health, advocacy, legal advice",
+        "Can convert to Unrestricted anytime",
+        "Eligible even if previously disclosed to chain of command",
+        "May report to: SARC, SAPR VA, Healthcare personnel",
+        "NAVADMIN 151/22 nuances; commanders/law enforcement reporting can still apply in certain cases"
+      ],
+      "Unrestricted": [
+        "Official investigation and command notification + services",
+        "Report to: Commander (contacts MCIO), Law Enforcement/MCIO, SARC, SAPR VA, Healthcare (contacts SARC)"
+      ]
+    },
+    "src": ":contentReference[oaicite:14]{index=14}"
+  },
+
+  {
+    "id": "2-1",
+    "title": "Birthdates — USN & USMC",
+    "expectation": "Recall verbatim.",
+    "excerpt": [
+      "U.S. Navy — 13 October 1775",
+      "U.S. Marine Corps — 10 November 1775"
+    ],
+    "src": ":contentReference[oaicite:15]{index=15}"
+  },
+
+  {
+    "id": "2-2",
+    "title": "Oath of Office",
+    "expectation": "Recall verbatim.",
+    "excerpt": "I, [name], do solemnly swear (or affirm) that I will support and defend the Constitution of the United States against all enemies, foreign and domestic; that I will bear true faith and allegiance to the same; that I take this obligation freely, without any mental reservation or purpose of evasion; and that I will well and faithfully discharge the duties of the office upon which I am about to enter. So help me God.",
+    "src": ":contentReference[oaicite:16]{index=16}"
+  },
+  {
+    "id": "2-3",
+    "title": "Oath of Enlistment",
+    "expectation": "Recall verbatim.",
+    "excerpt": "I, [name], do solemnly swear (or affirm) that I will support and defend the Constitution of the United States against all enemies, foreign and domestic; that I will bear true faith and allegiance to the same, and that I will obey the orders of the President of the United States and the orders of the officers appointed over me, according to regulations and the Uniform Code of Military Justice. So help me God.",
+    "src": ":contentReference[oaicite:17]{index=17}"
+  },
+  {
+    "id": "2-4",
+    "title": "Differences — Officer vs Enlistment Oaths",
+    "expectation": "Recall key facts.",
+    "excerpt": [
+      "Both: support and defend the Constitution",
+      "Enlisted: additionally swear to obey orders of POTUS and officers per regulations/UCMJ",
+      "Officers: pledge to faithfully discharge duties of office (no 'obey orders' clause), binding them to the Constitution (safeguard vs. personal rule; responsibility/leadership focus)"
+    ],
+    "src": ":contentReference[oaicite:18]{index=18}"
+  },
+
+  {
+    "id": "2-5",
+    "title": "U.S. Navy Mission",
+    "expectation": "Recall verbatim.",
+    "excerpt": "The mission of the Navy is to maintain, train and equip combat-ready naval forces capable of winning wars, deterring aggression and maintaining freedom of the seas.",
+    "src": ":contentReference[oaicite:19]{index=19}"
+  },
+  {
+    "id": "2-6",
+    "title": "NROTC Mission",
+    "expectation": "Recall verbatim.",
+    "excerpt": "To develop midshipmen mentally, morally and physically and to imbue them with the highest ideals of duty, and loyalty, and with the core values of honor, courage and commitment in order to commission college graduates as naval officers who possess a basic professional background, are motivated toward careers in the naval service, and have a potential for future development in mind and character so as to assume the highest responsibilities of command, citizenship and government.",
+    "src": ":contentReference[oaicite:20]{index=20}"
+  },
+  {
+    "id": "2-7",
+    "title": "Sailor’s Creed",
+    "expectation": "Recall verbatim.",
+    "excerpt": [
+      "I am a United States Sailor.",
+      "I will support and defend the Constitution of the United States of America and I will obey the orders of those appointed over me.",
+      "I represent the fighting spirit of the Navy and those who have gone before me to defend freedom and democracy around the world.",
+      "I proudly serve my country's Navy combat team with honor, courage and commitment.",
+      "I am committed to excellence and the fair treatment of all."
+    ],
+    "src": ":contentReference[oaicite:21]{index=21}"
+  },
+
+  {
+    "id": "2-8a",
+    "title": "NROTC Course Requirements — Naval Science",
+    "expectation": "Recall key facts.",
+    "excerpt": {
+      "4/C": ["Intro to Naval Science (Navy/USMC/Nurse)", "Sea Power & Maritime Affairs (Navy/USMC/Nurse)"],
+      "3/C": ["Leadership & Management (All)", "Navigation (Navy)"],
+      "2/C": ["Naval Ship Systems I — Engineering (Navy)"],
+      "2/C_or_3/C": ["Naval Ship Systems II — Weapons (Navy)", "Evolution of Warfare (USMC)"],
+      "1/C": ["Naval Operations & Seamanship (Navy)", "Fundamentals of Maneuver Warfare (USMC)", "Leadership & Ethics (All)"],
+      "AllTerms": ["Naval Science Laboratory (All)"]
+    },
+    "src": ":contentReference[oaicite:22]{index=22}"
+  },
+  {
+    "id": "2-8b",
+    "title": "NROTC Course Requirements — Specified (by Option)",
+    "expectation": "Recall key facts.",
+    "excerpt": {
+      "Credits": {
+        "Calculus": 6,
+        "Physics (calc-based)": 6,
+        "English": 6,
+        "American History or National Security Policy": 3,
+        "World Culture/Regional Studies": 3,
+        "College Algebra or higher": 6,
+        "Physical Science": 6
+      },
+      "Required_By": {
+        "Navy": ["Calculus (6)", "Physics (6)", "English (6)", "American History/NatSec (3)", "World Culture/Regional (3)"],
+        "USMC": ["English (6)", "American History/NatSec (3)", "World Culture/Regional (3)"],
+        "Nurse": ["English (6)"]
+      },
+      "Advised_Competitiveness": {
+        "USMC": ["Calculus (6)", "Physics (6)", "World Culture/Regional (3)"]
+      },
+      "Advanced_Standing_CollegeProgram": {
+        "Algebra_or_higher": "6 (College Program Adv Standing)",
+        "Physical_Science": "6 (College Program Adv Standing)"
+      },
+      "Course_Descriptions_Short": [
+        "Calculus: through single-variable diff+int; higher math can satisfy when placed out",
+        "Physics: calc-based; mech/EM; labs included",
+        "English: grammar/composition with significant writing; PNS approved",
+        "Am Hist/NatSec: US/world military history or US National Security policy; PNS approved",
+        "World Culture/Regional: culture-focused regions of interest (per NSTCINST 1550.1); language-only not sufficient; PNS approved"
+      ]
+    },
+    "src": ":contentReference[oaicite:23]{index=23}"
+  },
+
+  {
+    "id": "3-1",
+    "title": "Grooming Standards",
+    "expectation": "Recall key facts.",
+    "excerpt": [
+      "See NAVPERS 15665I, Article 2201 — Personal Appearance",
+      "Pay special attention to hair standards"
+    ],
+    "src": ":contentReference[oaicite:24]{index=24}"
+  },
+  {
+    "id": "3-2",
+    "title": "Proper Uniform Wear",
+    "expectation": "Recall key facts.",
+    "excerpt": {
+      "References": [
+        "USN Uniform Regs NAVPERS 15665I",
+        "USMC Uniform Regs MCO 1020.34H",
+        "ACAs: MIDREGs 5-3.4"
+      ],
+      "Know_Items_for": [
+        "Service Khaki (M/F)",
+        "Service Dress Blue (M/F)",
+        "NWU Type III",
+        "MCCUU/MARPAT"
+      ],
+      "ACAs_Examples": {
+        "Male": "Closed-toe shoes; slacks/khakis; collared shirt tucked with belt; no shorts (except BBQ/authorized); no rips/holes/excessively wrinkled",
+        "Female": "Same as male; sandals with heel strap permitted",
+        "Classroom": "Instructor may further specify"
+      }
+    },
+    "src": ":contentReference[oaicite:25]{index=25}"
+  },
+  {
+  "id": "3-3",
+  "title": "Billet Descriptions and Information",
+  "expectation": "Recall key duties for each billet.",
+  "excerpt": {
+    "BnCO": ["Leads and trains battalion", "Sets command vision", "Represents MIDN to staff/admin"],
+    "BnXO": ["Supervises staff ops", "Executes training plan", "Manages FITREP process"],
+    "CMC/BnSgtMaj": ["Advises CO/XO on morale", "Enforces standards", "Monitors MIDN welfare"],
+    "SFS_Cmdr": ["Leads Marine Options", "Plans SFS training/FEX", "Rates all Marine MIDN"],
+    "AdminO": ["Manages Google Drive/files", "Maintains records and distro lists", "Updates event schedule"],
+    "Asst_AdminO": ["Assists AdminO", "Maintains social media & websites", "Tracks GMT completion"],
+    "BnOpsO": ["Plans/coordinates labs", "Publishes POW", "Manages training feedback"],
+    "Asst_BnOpsO": ["Tracks planning status", "Runs turnover & mentorship", "Manages Honor Platoon comp"],
+    "SuppO": ["Manages supplies & uniforms", "Handles funds & reimbursements", "Oversees merchandise and dues"],
+    "LogO": ["Requests facilities/vehicles", "Plans transport", "Coordinates VIP escorts"],
+    "AO": ["Manages PKQs/PKEs", "Oversees PQS boards", "Runs 4/C training plan"],
+    "Asst_AO": ["Assists PKQ/PKE", "Runs review sessions", "Tracks PQS signatures"],
+    "CoCO": ["Leads company", "Sets training plan", "Reports welfare & discipline"],
+    "CoXO": ["Manages Co staff", "Oversees FITREPs", "Ensures event logistics"],
+    "CoOpsO": ["Plans company labs", "Coordinates schedules", "Collects feedback"],
+    "CPO/CoGySgt": ["Maintains discipline & inspections", "Tracks accountability", "Reports wellness to CMC"],
+    "CFL": ["Plans PT & PFAs", "Runs FEP/FMP", "Advises CoCO on fitness issues"],
+    "PltCmdr": ["Leads platoon", "Mentors squad leaders", "Ensures accountability & drill"],
+    "PltSgt": ["Assists PltCmdr", "Enforces standards", "Manages CHITs & accountability"],
+    "SqdLdr": ["Leads squad", "Trains MIDN in basics", "Reports accountability & progress"],
+    "SFS_ATO": ["Develops Bulldog training", "Creates SFS PQQs/PKEs", "Coordinates cadre support"],
+    "SFS_PTI": ["Runs SFS PT program", "Tracks fitness & CFT/PFT", "Coordinates FEP/FMP"],
+    "SFS_LogO": ["Manages SFS logistics", "Supervises supply & budget", "Coordinates facilities"],
+    "SFS_SuppO": ["Maintains SFS inventory", "Issues/recovers gear", "Reports deficiencies"],
+    "SFS_PAO": ["Takes photos", "Coordinates with AdminO"],
+    "Colors_LPO": ["Maintains color guard gear", "Assigns teams & practices", "Coordinates joint events"],
+    "ComServO": ["Plans 3+ service events/semester", "Publishes & tracks attendance"],
+    "MWR": ["Plans morale events", "Coordinates cross-river activities"],
+    "MWO": ["Monitors wellness data", "Reports trends to CPO/CMC", "Supports struggling MIDN"],
+    "WC_OIC": ["Runs Warfare Club", "Educates on career fields", "Tracks attendance/budget"],
+    "FFO_OIC": ["Leads Future Female Officers club", "Plans inclusive events", "Tracks attendance/budget"],
+    "SCLO": ["Liaises with Sea Cadets", "Coordinates MIDN support", "Mentors prospective cadets"]
+  }
+}
+
 ]

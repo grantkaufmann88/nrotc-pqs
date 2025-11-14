@@ -17,7 +17,7 @@ export async function POST(req) {
       },
       {
         role: "user",
-        content: `The midshipman answered: "${userAnswer}". Ask a new relevant PQS question.`,
+        content: `The midshipman answered: "${userAnswer}". Indicate whether they are correct or not and ask another question.`,
       },
     ],
   });

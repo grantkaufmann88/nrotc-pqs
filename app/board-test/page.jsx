@@ -8,11 +8,16 @@ export default function BoardTest() {
   const [question, setQuestion] = useState("");
   const [listening, setListening] = useState(false);
   const [lastTranscript, setLastTranscript] = useState("");
+  const [pqsId, setPqsId] = useState(null);
+  const [userInput, setUserInput] = useState("");
+  const [feedback, setFeedback] = useState("");
+  const [correct, setCorrect] = useState(null);
   const mediaRecorderRef = useRef(null);
   const chunksRef = useRef([]);
   const loopRef = useRef(false);
+  
 
-  const lastName = session?.user?.lastName || "MIDSHIPMAN";
+  const lastName = session?.user?.lastName || "X";
 
   // Fetch a new question and speak it aloud
   async function askAndSpeak() {
@@ -22,8 +27,9 @@ export default function BoardTest() {
       body: JSON.stringify({ lastName }),
     });
     const data = await res.json();
-    const q = data.question || "MIDSHIPMAN, please stand by, MIDSHIPMAN.";
+    const q = data.question || "Please stand by.";
     setQuestion(q);
+    setPqsId(data.meta?.id || null);     // <-- store the authoritative ID
     await speak(q);
   }
 
@@ -63,7 +69,10 @@ export default function BoardTest() {
       const blob = new Blob(chunksRef.current, { type: "audio/webm" });
       chunksRef.current = [];
       const transcript = await transcribeBlob(blob);
-      if (transcript) setLastTranscript(transcript);
+      if (transcript) {
+        setLastTranscript(transcript);
+        submitAnswer(transcript);
+      }
 
       if (loopRef.current) {
         setTimeout(() => {
@@ -77,6 +86,34 @@ export default function BoardTest() {
     recorder.start();
     setTimeout(() => recorder.stop(), 5000);
   }
+
+  async function submitAnswer(answer) {
+    if (!question || !pqsId) return;
+
+    const res = await fetch("/api/check", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        id: pqsId,
+        question,
+        userAnswer: answer,
+      }),
+    });
+
+    const data = await res.json();
+    setFeedback(data.feedback || "");
+    setCorrect(typeof data.correct === "boolean" ? data.correct : null);
+
+    setTimeout(async () => {
+      setFeedback("");
+      setCorrect(null);
+      setUserInput("");
+      await askAndSpeak();
+    }, 1500);
+  }
+
+
+
 
   function stopListeningLoop() {
     loopRef.current = false;
@@ -140,6 +177,30 @@ export default function BoardTest() {
           </div>
         </div>
 
+        <input
+          type="text"
+          value={userInput}
+          onChange={(e) => setUserInput(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") submitAnswer(userInput);
+          }}
+          placeholder="Type your answer and press Enter..."
+          className="border rounded p-2 w-full"
+        />
+
+        {feedback && (
+          <div className="mt-2 text-lg">
+            {feedback}{" "}
+            {correct !== null && (
+              <span className={correct ? "text-green-500" : "text-red-500"}>
+                {correct ? "✅" : "❌"}
+              </span>
+            )}
+          </div>
+        )}
+
+
+
         <div className="p-4 border rounded">
           <div className="text-sm opacity-70 mb-1">Microphone</div>
           <div className="flex items-center gap-2">
@@ -164,11 +225,6 @@ export default function BoardTest() {
             {lastTranscript || "(waiting...)"}
           </div>
         </div>
-      </div>
-
-      <div className="w-full max-w-3xl p-3 text-xs opacity-70">
-        Prompts are formatted as:{" "}
-        <code>MIDN {lastName}, MIDSHIPMAN, … MIDSHIPMAN.</code>
       </div>
     </div>
   );

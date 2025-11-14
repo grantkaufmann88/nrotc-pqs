@@ -8,14 +8,22 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 export async function POST(req) {
 try {
 const body = await req.json().catch(() => ({}));
-const { lastName = "MIDSHIPMAN" } = body || {};
+const { lastName = "X" } = body || {};
 
 
 const item = randomPQS();
 
 
 // System prompt focuses GPT: one concise board-style question
-const system = `You are a formal Navy board member testing a 4/C Midshipman.\nAsk exactly ONE concise question that assesses understanding of the excerpt.\nNever include the answer. Use the format: \"MIDN ${lastName} <question>\"`;
+const system = `You are a formal Navy board member testing a 4/C Midshipman.\nAsk a concise question that assesses understanding of the excerpt based off of the expectation.\nNever include the answer. Use the format: \"MIDN\" ${lastName} <question>. 
+Example Questions/Responses:
+MIDN X, If you are outdoors uniform at 1600 and run into CO and MSgt, what would you do?,
+MIDN X, what is the rank and insignia of an E-7 in the Navy?,
+MIDN X, list two people you could go to for restricted SAPR report,
+MIDN X, who is the chief of Naval Personell,
+MIDN X, describe the lab response procedure during company Lab if addressing XO;
+MIDN X, what are 2 things you MUST bring to PT
+`;
 
 
 const user = `PQS Title: ${item.title}\nExpectation: ${item.expectation}\nExcerpt:\n${item.excerpt}`;
