@@ -46,7 +46,7 @@ ${item.excerpt}
       ],
     });
 
-    const json = completion.choices[0].message.content;
+    const json = completion.choices[0].message.content ?? "{}";
     const parsed = JSON.parse(json);
 
     const result = {

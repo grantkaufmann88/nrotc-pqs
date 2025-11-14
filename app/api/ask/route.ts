@@ -41,7 +41,7 @@ messages: [
 });
 
 
-const question = completion.choices[0].message.content.trim();
+const question = completion.choices?.[0]?.message?.content?.trim() ?? "";
 
 
 // Include expected answer back for optional local grading/feedback
@@ -52,7 +52,7 @@ meta: { id: item.id, title: item.title, expectation: item.expectation },
 }),
 { status: 200, headers: { "Content-Type": "application/json" } }
 );
-} catch (e) {
-return new Response(JSON.stringify({ error: e.message }), { status: 500 });
+} catch (e: any) {
+  return new Response(JSON.stringify({ error: e.message || "Unknown error" }), { status: 500 });
 }
 }
