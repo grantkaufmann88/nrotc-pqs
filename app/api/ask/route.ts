@@ -21,8 +21,10 @@ MIDN X, If you are outdoors uniform at 1600 and run into CO and MSgt, what would
 MIDN X, what is the rank and insignia of an E-7 in the Navy?,
 MIDN X, list two people you could go to for restricted SAPR report,
 MIDN X, who is the chief of Naval Personell,
-MIDN X, describe the lab response procedure during company Lab if addressing XO;
+MIDN X, describe the lab response procedure during company Lab if addressing XO
 MIDN X, what are 2 things you MUST bring to PT
+MIDN X, what is the mission of the NROTC, verbatim
+MIDN X, wwhat is one major difference between the oath of office and the oath of enlistment
 `;
 
 

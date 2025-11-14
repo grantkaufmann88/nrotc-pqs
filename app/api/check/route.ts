@@ -1,15 +1,14 @@
-// app/api/check/route.js
+// app/api/check/route.ts
 import { NextResponse } from "next/server";
 import OpenAI from "openai";
 import { getPQSById } from "@/lib/pqs";
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-export async function POST(req) {
+export async function POST(req: Request) {
   try {
     const { id, question, userAnswer } = await req.json();
 
-    // Fetch the authoritative PQS item for reference-grounded grading
     const item = getPQSById(id);
     if (!item) {
       return NextResponse.json(
@@ -50,14 +49,13 @@ ${item.excerpt}
     const json = completion.choices[0].message.content;
     const parsed = JSON.parse(json);
 
-    // Ensure shape
     const result = {
       correct: !!parsed.correct,
       feedback: typeof parsed.feedback === "string" ? parsed.feedback : "",
     };
 
     return NextResponse.json(result, { status: 200 });
-  } catch (e) {
+  } catch (e: any) {
     return NextResponse.json(
       { error: e.message || "Grading error", correct: false, feedback: "Grading failed." },
       { status: 500 }
