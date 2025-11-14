@@ -109,7 +109,7 @@ export default function BoardTest() {
       setCorrect(null);
       setUserInput("");
       await askAndSpeak();
-    }, 1500);
+    }, 3000);
   }
 
 

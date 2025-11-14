@@ -16,27 +16,20 @@
         "Remain standing until they finish speaking or MIDN is told to sit"
       ]
     },
-    "examples": [
-      "MIDN X, how would you respond if the XO addresses you during lab?",
-      "MIDN X, if MSgt asks you a question during lab, how do you respond properly?",
-      "MIDN X, describe the lab response preocedure for any situation."
-    ]
+    "src": ":contentReference[oaicite:1]{index=1}"
   },
   {
     "id": "1-1b",
     "title": "MIDREGs — Inclement Weather & PT/NWUs",
     "expectation": "Recall key facts.",
     "excerpt": [
-     "MIDN are expected to bring a full hydration source to all PT evolutions",
-     "MIDN will form up in track suits regardless of temperature",
-     "Plain dark blue/black jacket to/from PT ok (no visible brand); remove for form up",
-     "Plain black bag (no visible brand) allowed to/from PT",
-     "NWU fleece permitted as jacket to/from PT"
+      "MIDN are expected to bring a full hydration source to all PT evolutions",
+      "MIDN will form up in track suits regardless of temperature",
+      "Plain dark blue/black jacket to/from PT ok (no visible brand); remove for form up",
+      "Plain black bag (no visible brand) allowed to/from PT",
+      "NWU fleece permitted as jacket to/from PT"
     ],
-    "examples": [
-      "MIDN X, what must you bring to every PT evolution?",
-      "MIDN X, what type of jacket is permitted when traveling to PT?"
-    ]
+    "src": ":contentReference[oaicite:2]{index=2}"
   },
   {
     "id": "1-1c",
@@ -47,16 +40,11 @@
       "Salutations_to_4C-2C": "“Good [time], MIDN Doe,” … “R/” or “V/r”, MIDN 1/C Jones",
       "Salutations_to_1C+Staff": "“Good [time], Sir/Ma’am,” … “V/r”, MIDN 1/C Jones",
       "Addresses": "Use name+rank; not class year in greeting line",
-      "SignOffs": " Include rank + class year; billet if applicable (e.g., “MIDN 1/C Jones\\nBnXO”)",
-      "[ACTION REQUIRED]": " Prefix subject when tasking",
-      "Phone_Text": " Use for urgency; be respectful; no prompt after-hours replies unless extreme urgency"
+      "SignOffs": "Include rank + class year; billet if applicable (e.g., “MIDN 1/C Jones\\nBnXO”)",
+      "[ACTION REQUIRED]": "Prefix subject when tasking",
+      "Phone_Text": "Use for urgency; be respectful; no prompt after-hours replies unless extreme urgency"
     },
-    "examples": [
-      "MIDN X, how should you address an email to a MIDN 1/C?",
-      "MIDN X, what should you include in your email signature block?",
-      "MIDN X, what is the proper closing when emailing a staff member?",
-      "MIDN X, how should you address an email to unit staff?"
-    ]
+    "src": ":contentReference[oaicite:3]{index=3}"
   },
 
   {
@@ -76,12 +64,7 @@
       "SMMC — SMMC Carlos Ruiz"
     ],
     "notes": "Subject to change; MIDN must know current office holders.",
-    "examples": [
-      "MIDN X, who is the Chief of Naval Personnel?",
-      "MIDN X, who is the Commandant of the Marine Corps?",
-      "MIDN X, who is the Commander in Chief.",
-      "MIDN X, who is the Chief of Naval Operations?"
-    ]
+    "src": ":contentReference[oaicite:4]{index=4}"
   },
 
   {
@@ -115,10 +98,7 @@
       "Enlisted_USMC": "Use full rank (e.g., 'Staff Sergeant Smith'); never shorten for E-6+.",
       "Formality": "Use most formal form when in doubt"
     },
-    "examples": [
-      "MIDN X, how would you greet a female officer at 0800?",
-      "MIDN X, what is the proper greeting for a group of male and female officers?"
-    ]
+    "src": ":contentReference[oaicite:5]{index=5}"
   },
 
   {
@@ -127,13 +107,29 @@
     "expectation": "Recall key facts.",
     "excerpt": [
       "Right hand customary; left hand allowed if right is injured/occupied",
-      "Navy/USMC: salute covered; Army/AF may salute uncovered — adapt to setting ('When in Rome…')",
+      "Navy/USMC: salute covered; Army/AF may salute uncovered — adapt to setting ('When in Rome…')"
+    ],
+    "src": ":contentReference[oaicite:6]{index=6}"
+  },
+  {
+    "id": "1-4b",
+    "title": "Saluting — How to Salute",
+    "expectation": "Recall key facts.",
+    "excerpt": [
       "From attention if halted; keep erect while walking; slow from double",
       "Upper arm parallel to deck; forearm 45°; palm slightly inward; fingers joined; forefinger to cap brim right of eye",
       "Face/look at person; allow ~6 steps for exchange",
       "Hold until returned/acknowledged or passed",
       "Accompany with verbal greeting; if both hands occupied, verbal greeting only",
-      "If on cell: pause, drop phone, attention, salute",
+      "If on cell: pause, drop phone, attention, salute"
+    ],
+    "src": ":contentReference[oaicite:7]{index=7}"
+  },
+  {
+    "id": "1-4c",
+    "title": "Saluting — When to Salute",
+    "expectation": "Recall key facts.",
+    "excerpt": [
       "All senior officers (U.S. & allied); USMM & USPHS officers",
       "Recognized seniors even in civilian clothes/uncovered",
       "Medal of Honor recipients (regardless of rank/rate)",
@@ -143,7 +139,15 @@
       "Passing senior: pass left, salute abeam, 'By your leave…' — 'Very well'",
       "Crowded: salute when addressing/being addressed",
       "Return salutes from children/retirees",
-      "When in doubt, salute",
+      "When in doubt, salute"
+    ],
+    "src": ":contentReference[oaicite:8]{index=8}"
+  },
+  {
+    "id": "1-4d",
+    "title": "Saluting — When NOT to Salute",
+    "expectation": "Recall key facts.",
+    "excerpt": [
       "In formation (leader salutes/gives command)",
       "Engaged in work or part of a work detail (leader salutes)",
       "Carrying items in both hands (verbal greeting ok)",
@@ -151,20 +155,9 @@
       "At mess (sit at attention if addressed)",
       "Combat/simulated combat conditions"
     ],
-    "examples": [
-      "MIDN X, when is it acceptable to salute with your left hand?",
-      "MIDN X, how should you adapt your saluting customs when visiting an Army base?",
-      "MIDN X, describe the proper position of the forearm and hand when saluting.",
-      "MIDN X, how should you salute when walking versus standing still?",
-      "MIDN X, what should you do if you are holding a phone when a senior officer approaches?",
-      "MIDN X, when passing a senior officer outdoors, when should you render your salute?",
-      "MIDN X, do you salute Medal of Honor recipients?",
-      "MIDN X, what should you do if you are in a group and a senior officer approaches?",
-            "MIDN X, should you salute while in formation?",
-      "MIDN X, are salutes rendered while carrying items in both hands?",
-      "MIDN X, when at mess, how should you respond if addressed by a senior officer?"
-    ]
+    "src": ":contentReference[oaicite:9]{index=9}"
   },
+
   {
   "id": "1-5",
   "title": "Ranks and Insignia (USN/USMC)",
@@ -506,68 +499,15 @@
         "Insignia": "Four silver stars"
       }
     }
-  },
-  "examples": [
-    "MIDN X, what is the rank and insignia of a Navy E-7?",
-    "MIDN X, what is the collar device for a CWO2 in the Marine Corps?",
-    "MIDN X, what is the abbreviation and insignia for a Navy Petty Officer Second Class?",
-    "MIDN X, what rank is equivalent to a Navy Captain in the Marine Corps?"
-  ]
+  }
 }
 ,
   {
     "id": "1-6",
     "title": "Midshipmen Ranks and Insignia",
     "expectation": "Recall verbatim.",
-    "excerpt": {
-        "Class Ranks": {
-            "1/C": {
-                "Sleeve": "Three thin gold stripes on the upper arm",
-                "Collar": "Two large gold eagles",
-                "Shoulder Boards": "Anchor with 1 horizontal gold stripe",
-                "NWU": "One large perched eagle"
-            },
-            "2/C": {
-                "Sleeve": "Two thin gold stripes on the upper arm",
-                "Collar": "Two gold anchors",
-                "Shoulder Boards": "Anchor with 2 diagonal gold stripes",
-                "NWU": "Anchor with 2 diagonal gold stripes"
-            },
-            "3/C": {
-                "Sleeve": "one thin gold stripe on the upper arm",
-                "Collar": "One gold anchor on the right collar",
-                "Shoulder Boards": "Anchor with 1 diagonal gold stripe",
-                "NWU": "Anchor with 1 diagonal gold stripe"
-            },
-            "3/C": {
-                "Sleeve": "one thin gold stripe on the upper arm",
-                "Collar": "One gold anchor on the right collar",
-                "Shoulder Boards": "Anchor with 1 diagonal gold stripe",
-                "NWU": "Anchor with 1 diagonal gold stripe"
-            },
-             "4/C": {
-                "Sleeve": "None",
-                "Collar": "None",
-                "Shoulder Boards": "One anchor",
-                "NWU": "None"
-            }
-        },
-        "MIDN Officer Rank Insignia": {
-            "MIDN ENS": "One horizontal gold bar",
-            "MIDN LTJG": "Two horizontal gold bars",
-            "MIDN LT": "Three horizontal gold bars",
-            "MIDN LTCDR": "Four horizontal gold bars",
-            "MIDN CDR": "Five horizontal gold bars",
-            "MIDN Captain": "Six horizontal gold bars"
-        }
-    },
+    "excerpt": "Verbatim content not included in provided text body (likely table/figures). Insert MIDN rank/insignia reference here before administering verbatim testing.",
     "needs_insert": true,
-    "examples": [
-      "MIDN X, identify the insignia for a MIDN Commander",
-      "MIDN X, describe the khaki collar insignia for a MIDN 3/C",
-      "MIDN X, describe the sleeve insignia for a MIDN 2/C"
-    
-    ],
     "src": ":contentReference[oaicite:11]{index=11}"
   },
 
@@ -582,11 +522,7 @@
       "SexualHarassment": "Unwanted sexual advances/remarks in professional/social context.",
       "Policy": "Zero tolerance for all of the above."
     },
-    "examples": [
-      "MIDN X, define hazing.",
-      "MIDN X, what is the definition of fraternization?",
-      "MIDN X, what does the Navy’s policy on hazing?"
-    ]
+    "src": ":contentReference[oaicite:12]{index=12}"
   },
   {
     "id": "1-7b",
@@ -598,9 +534,7 @@
       "Can occur regardless of gender, spousal relationship, or age",
       "Consent ≠ lack of resistance; not given under force, threat, coercion, sleep, incapacitation, or unconsciousness"
     ],
-    "examples": [
-      "MIDN X, how does the Navy define sexual assault?",
-    ]
+    "src": ":contentReference[oaicite:13]{index=13}"
   },
   {
     "id": "1-7c",
@@ -620,11 +554,7 @@
         "Report to: Commander (contacts MCIO), Law Enforcement/MCIO, SARC, SAPR VA, Healthcare (contacts SARC)"
       ]
     },
-    "examples": [
-      "MIDN X, name two personnel you can report a restricted sexual assault to.",
-      "MIDN X, what happens when you make an unrestricted report?",
-      "MIDN X, can a restricted report be converted to an unrestricted one later?"
-    ]
+    "src": ":contentReference[oaicite:14]{index=14}"
   },
 
   {
@@ -635,10 +565,7 @@
       "U.S. Navy — 13 October 1775",
       "U.S. Marine Corps — 10 November 1775"
     ],
-    "examples": [
-      "MIDN X, what is the birthday of the the United States Navy?",
-      "MIDN X, what is the Marine Corps’ birthday?"
-    ]
+    "src": ":contentReference[oaicite:15]{index=15}"
   },
 
   {
@@ -646,18 +573,14 @@
     "title": "Oath of Office",
     "expectation": "Recall verbatim.",
     "excerpt": "I, [name], do solemnly swear (or affirm) that I will support and defend the Constitution of the United States against all enemies, foreign and domestic; that I will bear true faith and allegiance to the same; that I take this obligation freely, without any mental reservation or purpose of evasion; and that I will well and faithfully discharge the duties of the office upon which I am about to enter. So help me God.",
-    "examples": [
-      "MIDN X, recite the Oath of Office."
-    ]
+    "src": ":contentReference[oaicite:16]{index=16}"
   },
   {
     "id": "2-3",
     "title": "Oath of Enlistment",
     "expectation": "Recall verbatim.",
     "excerpt": "I, [name], do solemnly swear (or affirm) that I will support and defend the Constitution of the United States against all enemies, foreign and domestic; that I will bear true faith and allegiance to the same, and that I will obey the orders of the President of the United States and the orders of the officers appointed over me, according to regulations and the Uniform Code of Military Justice. So help me God.",
-    "examples": [
-      "MIDN X, recite the Oath of Enlistment.",
-    ]
+    "src": ":contentReference[oaicite:17]{index=17}"
   },
   {
     "id": "2-4",
@@ -668,9 +591,7 @@
       "Enlisted: additionally swear to obey orders of POTUS and officers per regulations/UCMJ",
       "Officers: pledge to faithfully discharge duties of office (no 'obey orders' clause), binding them to the Constitution (safeguard vs. personal rule; responsibility/leadership focus)"
     ],
-    "examples": [
-      "MIDN X, what is one major difference between the officer and enlisted oaths?",
-    ]
+    "src": ":contentReference[oaicite:18]{index=18}"
   },
 
   {
@@ -678,18 +599,14 @@
     "title": "U.S. Navy Mission",
     "expectation": "Recall verbatim.",
     "excerpt": "The mission of the Navy is to maintain, train and equip combat-ready naval forces capable of winning wars, deterring aggression and maintaining freedom of the seas.",
-    "examples": [
-      "MIDN X, what is the mission of the United States Navy, verbatim?"
-    ]
+    "src": ":contentReference[oaicite:19]{index=19}"
   },
   {
     "id": "2-6",
     "title": "NROTC Mission",
     "expectation": "Recall verbatim.",
     "excerpt": "To develop midshipmen mentally, morally and physically and to imbue them with the highest ideals of duty, and loyalty, and with the core values of honor, courage and commitment in order to commission college graduates as naval officers who possess a basic professional background, are motivated toward careers in the naval service, and have a potential for future development in mind and character so as to assume the highest responsibilities of command, citizenship and government.",
-    "examples": [
-      "MIDN X, what is the mission of the NROTC?"
-    ]
+    "src": ":contentReference[oaicite:20]{index=20}"
   },
   {
     "id": "2-7",
@@ -702,9 +619,7 @@
       "I proudly serve my country's Navy combat team with honor, courage and commitment.",
       "I am committed to excellence and the fair treatment of all."
     ],
-    "examples": [
-      "MIDN X, recite the Sailor’s Creed."
-    ]
+    "src": ":contentReference[oaicite:21]{index=21}"
   },
 
   {
@@ -719,10 +634,7 @@
       "1/C": ["Naval Operations & Seamanship (Navy)", "Fundamentals of Maneuver Warfare (USMC)", "Leadership & Ethics (All)"],
       "AllTerms": ["Naval Science Laboratory (All)"]
     },
-    "examples": [
-      "MIDN X, what Naval Science courses must a 4/C take?",
-      "MIDN X, list 3 naval science classes al MIDN are required to take?"
-    ]
+    "src": ":contentReference[oaicite:22]{index=22}"
   },
   {
     "id": "2-8b",
@@ -758,9 +670,7 @@
         "World Culture/Regional: culture-focused regions of interest (per NSTCINST 1550.1); language-only not sufficient; PNS approved"
       ]
     },
-    "examples": [
-      "MIDN X, how many credits of Calculus are required for Navy Options?"
-    ]
+    "src": ":contentReference[oaicite:23]{index=23}"
   },
 
   {
@@ -771,29 +681,31 @@
       "See NAVPERS 15665I, Article 2201 — Personal Appearance",
       "Pay special attention to hair standards"
     ],
-    "examples": [
-      "MIDN X, what are the navy hair regulations for males?"
-    ]
+    "src": ":contentReference[oaicite:24]{index=24}"
   },
   {
     "id": "3-2",
     "title": "Proper Uniform Wear",
     "expectation": "Recall key facts.",
     "excerpt": {
+      "References": [
+        "USN Uniform Regs NAVPERS 15665I",
+        "USMC Uniform Regs MCO 1020.34H",
+        "ACAs: MIDREGs 5-3.4"
+      ],
       "Know_Items_for": [
         "Service Khaki (M/F)",
         "Service Dress Blue (M/F)",
         "NWU Type III",
-        "MARPAT"
+        "MCCUU/MARPAT"
       ],
       "ACAs_Examples": {
         "Male": "Closed-toe shoes; slacks/khakis; collared shirt tucked with belt; no shorts (except BBQ/authorized); no rips/holes/excessively wrinkled",
-        "Female": "Same as male; sandals with heel strap permitted"
+        "Female": "Same as male; sandals with heel strap permitted",
+        "Classroom": "Instructor may further specify"
       }
     },
-    "examples": [
-      "MIDN X, what constitues proper ACAs?"
-    ]
+    "src": ":contentReference[oaicite:25]{index=25}"
   },
   {
   "id": "3-3",
@@ -832,12 +744,7 @@
     "WC_OIC": ["Runs Warfare Club", "Educates on career fields", "Tracks attendance/budget"],
     "FFO_OIC": ["Leads Future Female Officers club", "Plans inclusive events", "Tracks attendance/budget"],
     "SCLO": ["Liaises with Sea Cadets", "Coordinates MIDN support", "Mentors prospective cadets"]
-  },
-  "examples": [
-    "MIDN X, what are the primary duties of the Battalion Executive Officer?",
-    "MIDN X, who manages the PQS and oversees 4/C training?",
-    "MIDN X, what are the responsibilities of the Company Fitness Leader?"
-  ]
+  }
 }
 
 ]
