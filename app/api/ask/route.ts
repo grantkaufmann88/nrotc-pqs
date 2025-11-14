@@ -5,7 +5,7 @@ import { randomPQS } from "@/lib/pqs";
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 
-export async function POST(req) {
+export async function POST(req: Request) {
 try {
 const body = await req.json().catch(() => ({}));
 const { lastName = "X" } = body || {};
