@@ -19,7 +19,6 @@
     "examples": [
       "MIDN X, how would you respond if the XO addresses you during lab?",
       "MIDN X, if MSgt asks you a question during lab, how do you respond properly?",
-      "MIDN X, describe the lab response preocedure for any situation."
     ]
   },
   {
@@ -35,7 +34,7 @@
     ],
     "examples": [
       "MIDN X, what must you bring to every PT evolution?",
-      "MIDN X, what type of jacket is permitted when traveling to PT?"
+      "MIDN X, what type of jacket is permitted when traveling to and from PT?"
     ]
   },
   {
@@ -153,16 +152,13 @@
     ],
     "examples": [
       "MIDN X, when is it acceptable to salute with your left hand?",
-      "MIDN X, how should you adapt your saluting customs when visiting an Army base?",
       "MIDN X, describe the proper position of the forearm and hand when saluting.",
       "MIDN X, how should you salute when walking versus standing still?",
       "MIDN X, what should you do if you are holding a phone when a senior officer approaches?",
       "MIDN X, when passing a senior officer outdoors, when should you render your salute?",
-      "MIDN X, do you salute Medal of Honor recipients?",
+      "MIDN X, what might you salute other than senior officers?",
       "MIDN X, what should you do if you are in a group and a senior officer approaches?",
-            "MIDN X, should you salute while in formation?",
-      "MIDN X, are salutes rendered while carrying items in both hands?",
-      "MIDN X, when at mess, how should you respond if addressed by a senior officer?"
+      "MIDN X, give two examples of a time when you would NOT salute"
     ]
   },
   {
@@ -511,7 +507,7 @@
     "MIDN X, what is the rank and insignia of a Navy E-7?",
     "MIDN X, what is the collar device for a CWO2 in the Marine Corps?",
     "MIDN X, what is the abbreviation and insignia for a Navy Petty Officer Second Class?",
-    "MIDN X, what rank is equivalent to a Navy Captain in the Marine Corps?"
+    "MIDN X, what is an O-5 in the Marine Corps?"
   ]
 }
 ,
@@ -539,12 +535,6 @@
                 "Shoulder Boards": "Anchor with 1 diagonal gold stripe",
                 "NWU": "Anchor with 1 diagonal gold stripe"
             },
-            "3/C": {
-                "Sleeve": "one thin gold stripe on the upper arm",
-                "Collar": "One gold anchor on the right collar",
-                "Shoulder Boards": "Anchor with 1 diagonal gold stripe",
-                "NWU": "Anchor with 1 diagonal gold stripe"
-            },
              "4/C": {
                 "Sleeve": "None",
                 "Collar": "None",
@@ -563,7 +553,7 @@
     },
     "needs_insert": true,
     "examples": [
-      "MIDN X, identify the insignia for a MIDN Commander",
+      "MIDN X, describe the insignia for a MIDN Commander",
       "MIDN X, describe the khaki collar insignia for a MIDN 3/C",
       "MIDN X, describe the sleeve insignia for a MIDN 2/C"
     
@@ -580,48 +570,34 @@
       "Discrimination": "Unjust/prejudicial treatment based on protected categories.",
       "Fraternization": "Unduly familiar relationships without respect to rank; favoritism risk.",
       "SexualHarassment": "Unwanted sexual advances/remarks in professional/social context.",
-      "Policy": "Zero tolerance for all of the above."
-    },
-    "examples": [
-      "MIDN X, define hazing.",
-      "MIDN X, what is the definition of fraternization?",
-      "MIDN X, what does the Navy’s policy on hazing?"
-    ]
-  },
-  {
-    "id": "1-7b",
-    "title": "SAPR — Definition of Sexual Assault",
-    "expectation": "Be familiar with the definitions of hazing, discrimination, fraternization, sexual harassment, and the Navy’s approach towards them. Know the reporting options for victims of sexual assault. ",
-    "excerpt": [
+      "Policy": "Zero tolerance for all of the above.",
+      "SAPR — Definition of Sexual Assault": [
       "Intentional sexual contact with force/threat/abuse of authority or without/ incapable of consent",
       "Includes rape, non-consensual sodomy, indecent assault, attempts",
       "Can occur regardless of gender, spousal relationship, or age",
       "Consent ≠ lack of resistance; not given under force, threat, coercion, sleep, incapacitation, or unconsciousness"
     ],
-    "examples": [
-      "MIDN X, how does the Navy define sexual assault?"
-    ]
-  },
-  {
-    "id": "1-7c",
-    "title": "SAPR — Reporting Options",
-    "expectation": "Be familiar with the definitions of hazing, discrimination, fraternization, sexual harassment, and the Navy’s approach towards them. Know the reporting options for victims of sexual assault. ",
-    "excerpt": {
-      "Restricted": [
-        "Confidential; no official investigation; command notified 'an assault' occurred (limited details, no name)",
-        "Victim gets medical/mental health, advocacy, legal advice",
-        "Can convert to Unrestricted anytime",
-        "Eligible even if previously disclosed to chain of command",
-        "May report to: SARC, SAPR VA, Healthcare personnel",
-        "NAVADMIN 151/22 nuances; commanders/law enforcement reporting can still apply in certain cases"
-      ],
-      "Unrestricted": [
-        "Official investigation and command notification + services",
-        "Report to: Commander (contacts MCIO), Law Enforcement/MCIO, SARC, SAPR VA, Healthcare (contacts SARC)"
-      ]
+    "SAPR — Reporting Options": {
+        "Restricted": [
+            "Confidential; no official investigation; command notified 'an assault' occurred (limited details, no name)",
+            "Victim gets medical/mental health, advocacy, legal advice",
+            "Can convert to Unrestricted anytime",
+            "Eligible even if previously disclosed to chain of command",
+            "May report to: SARC, SAPR VA, Healthcare personnel",
+            "NAVADMIN 151/22 nuances; commanders/law enforcement reporting can still apply in certain cases"
+        ],
+        "Unrestricted": [
+            "Official investigation and command notification + services",
+            "Report to: Commander (contacts MCIO), Law Enforcement/MCIO, SARC, SAPR VA, Healthcare (contacts SARC)"
+        ]
+    }
     },
     "examples": [
-      "MIDN X, name two personnel you can report a restricted sexual assault to.",
+      "MIDN X, define hazing.",
+      "MIDN X, what is the definition of fraternization?",
+      "MIDN X, what does the Navy’s policy on hazing?",
+      "MIDN X, how does the Navy define sexual assault?",
+            "MIDN X, name two personnel you can report a restricted sexual assault to.",
       "MIDN X, what happens when you make an unrestricted report?",
       "MIDN X, can a restricted report be converted to an unrestricted one later?"
     ]
@@ -696,11 +672,7 @@
     "title": "Sailor’s Creed",
     "expectation": "Recall the Sailor’s Creed verbatim.",
     "excerpt": [
-      "I am a United States Sailor.",
-      "I will support and defend the Constitution of the United States of America and I will obey the orders of those appointed over me.",
-      "I represent the fighting spirit of the Navy and those who have gone before me to defend freedom and democracy around the world.",
-      "I proudly serve my country's Navy combat team with honor, courage and commitment.",
-      "I am committed to excellence and the fair treatment of all."
+      "I am a United States Sailor. I will support and defend the Constitution of the United States of America and I will obey the orders of those appointed over me. I represent the fighting spirit of the Navy and those who have gone before me to defend freedom and democracy around the world. I proudly serve my country's Navy combat team with honor, courage and commitment. I am committed to excellence and the fair treatment of all."
     ],
     "examples": [
       "MIDN X, recite the Sailor’s Creed."

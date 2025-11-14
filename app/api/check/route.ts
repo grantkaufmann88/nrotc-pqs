@@ -25,7 +25,7 @@ export async function POST(req: Request) {
     const system = `
 You are an NROTC PQS board grader.
 Evaluate the user's answer using ONLY the provided PQS reference as the source of truth.
-Be concise and professional. If the user is close, you may mark correct but note minor issues. 
+Be concise and professional. If the user is close, you may mark correct but note minor issues. Unless the prompt specifies that it MUST be known verbatim, MIDN are not required to do so.
 The MIDN does not need to answer all topics mentioned in the excerpt, as long as the MIDN correctly and appropriately answers the question asked they are correct.
 Return STRICT JSON ONLY with keys: "correct" (true/false) and "feedback" (string). No extra text. Be very relaxed overall with correctness vs incorrectness.
 `;
@@ -36,17 +36,22 @@ Return STRICT JSON ONLY with keys: "correct" (true/false) and "feedback" (string
         ? JSON.stringify(item.excerpt, null, 2)
         : item.excerpt;
 
+
     const user = `PQS Title: ${item.title}\nExpectation: ${item.expectation}\nExcerpt:\n${excerptText}\nExample: ${item.example},User Answer: ${userAnswer}`;
 
     // ✅ Log what’s actually being sent to OpenAI
-    console.log("📘 SYSTEM PROMPT SENT TO MODEL:\n", system);
-    console.log("👤 USER PROMPT SENT TO MODEL:\n", user);
+    // console.log("📘 SYSTEM PROMPT SENT TO MODEL:\n", system);
+    // console.log("👤 USER PROMPT SENT TO MODEL:\n", user);
 
     // ✅ Properly typed messages array
     const messages: ChatCompletionMessageParam[] = [
       { role: "system", content: system },
       { role: "user", content: user },
     ];
+
+    console.log("======================================================================");
+    console.log("Prompt\n", messages);
+    console.log("======================================================================");
 
     // 🔹 Send to OpenAI
     const completion = await openai.chat.completions.create({
@@ -57,7 +62,7 @@ Return STRICT JSON ONLY with keys: "correct" (true/false) and "feedback" (string
     });
 
     // ✅ Log the full API response
-    console.log("📦 OpenAI raw response:\n", JSON.stringify(completion, null, 2));
+    // console.log("📦 OpenAI raw response:\n", JSON.stringify(completion, null, 2));
 
     const json = completion.choices[0].message.content ?? "{}";
     const parsed = JSON.parse(json);
@@ -67,7 +72,7 @@ Return STRICT JSON ONLY with keys: "correct" (true/false) and "feedback" (string
       feedback: typeof parsed.feedback === "string" ? parsed.feedback : "",
     };
 
-    console.log("✅ Grading result:", result);
+    // console.log("✅ Grading result:", result);
 
     return NextResponse.json(result, { status: 200 });
   } catch (e: any) {

@@ -109,7 +109,7 @@ export default function BoardTest() {
       setCorrect(null);
       setUserInput("");
       await askAndSpeak();
-    }, 3000);
+    }, 8000);
   }
 
 
@@ -137,30 +137,6 @@ export default function BoardTest() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-start p-6 gap-4">
-      <div className="w-full max-w-3xl flex items-center justify-between">
-        <h1 className="text-2xl font-bold">NROTC PQS Board — Test Rig</h1>
-        {status !== "authenticated" ? (
-          <button
-            onClick={() => signIn("google")}
-            className="px-4 py-2 bg-blue-600 text-white rounded"
-          >
-            Sign in with Google
-          </button>
-        ) : (
-          <div className="flex items-center gap-3">
-            <span className="text-sm opacity-80">
-              Signed in as {session.user.name}
-            </span>
-            <button
-              onClick={() => signOut()}
-              className="px-3 py-1 bg-gray-200 rounded"
-            >
-              Sign out
-            </button>
-          </div>
-        )}
-      </div>
-
       <div className="w-full max-w-3xl grid gap-3">
         <div className="p-4 border rounded">
           <div className="text-sm opacity-70 mb-1">Current Question</div>
@@ -202,7 +178,7 @@ export default function BoardTest() {
 
 
         <div className="p-4 border rounded">
-          <div className="text-sm opacity-70 mb-1">Microphone</div>
+          <div className="text-sm opacity-70 mb-1">Microphone - STILL IN DEVELOPMENT</div>
           <div className="flex items-center gap-2">
             {!listening ? (
               <button
