@@ -2,7 +2,7 @@
   {
     "id": "1-1a",
     "title": "MIDREGs — Leadership Lab SOP (Response Procedure)",
-    "expectation": "Recall exact procedure",
+    "expectation": "Be familiar with Sections 3-2, 5-2, and 7-2 of MIDREGs. Demonstrate proper lab response procedure. Explain proper electronic communication procedures.",
     "excerpt": {
       "ActiveDuty+MIDN": [
         "Remain seated",
@@ -62,7 +62,7 @@
   {
     "id": "1-2",
     "title": "Chain of Command (FA25)",
-    "expectation": "Recall verbatim.",
+    "expectation": "Know the Chain of Command verbatim",
     "excerpt": [
       "Commander in Chief — The Honorable Donald J. Trump",
       "Secretary of Defense — The Honorable Peter B. Hegseth",
@@ -87,7 +87,7 @@
   {
     "id": "1-3",
     "title": "Addressing and Greeting Personnel",
-    "expectation": "Recall key facts.",
+    "expectation": "Be familiar with the proper address and greeting for military personnel of any rank.",
     "excerpt": {
       "GreetingsOfDay": {
         "0000-1159": "Good morning",
@@ -122,9 +122,9 @@
   },
 
   {
-    "id": "1-4a",
+    "id": "1-4",
     "title": "Saluting — Custom & Exceptions",
-    "expectation": "Recall key facts.",
+    "expectation": "Be familiar with how to salute and when/when not to salute. ",
     "excerpt": [
       "Right hand customary; left hand allowed if right is injured/occupied",
       "Navy/USMC: salute covered; Army/AF may salute uncovered — adapt to setting ('When in Rome…')",
@@ -168,7 +168,7 @@
   {
   "id": "1-5",
   "title": "Ranks and Insignia (USN/USMC)",
-  "expectation": "Recall key facts.",
+  "expectation": "Recall verbatim the corresponding rank and title when shown insignia. Properly describe insignia corresponding to a given rank or title. ",
   "excerpt": {
     "E-1": {
       "Navy": {
@@ -518,7 +518,7 @@
   {
     "id": "1-6",
     "title": "Midshipmen Ranks and Insignia",
-    "expectation": "Recall verbatim.",
+    "expectation": "Recall verbatim the corresponding rank and title when shown insignia. Properly describe insignia corresponding to a given rank or title. ",
     "excerpt": {
         "Class Ranks": {
             "1/C": {
@@ -574,7 +574,7 @@
   {
     "id": "1-7a",
     "title": "Navy Policies — Definitions",
-    "expectation": "Recall key facts.",
+    "expectation": "Be familiar with the definitions of hazing, discrimination, fraternization, sexual harassment, and the Navy’s approach towards them. Know the reporting options for victims of sexual assault. ",
     "excerpt": {
       "Hazing": "Strenuous/humiliating tasks without training purpose (often initiation).",
       "Discrimination": "Unjust/prejudicial treatment based on protected categories.",
@@ -591,7 +591,7 @@
   {
     "id": "1-7b",
     "title": "SAPR — Definition of Sexual Assault",
-    "expectation": "Recall key facts.",
+    "expectation": "Be familiar with the definitions of hazing, discrimination, fraternization, sexual harassment, and the Navy’s approach towards them. Know the reporting options for victims of sexual assault. ",
     "excerpt": [
       "Intentional sexual contact with force/threat/abuse of authority or without/ incapable of consent",
       "Includes rape, non-consensual sodomy, indecent assault, attempts",
@@ -599,13 +599,13 @@
       "Consent ≠ lack of resistance; not given under force, threat, coercion, sleep, incapacitation, or unconsciousness"
     ],
     "examples": [
-      "MIDN X, how does the Navy define sexual assault?",
+      "MIDN X, how does the Navy define sexual assault?"
     ]
   },
   {
     "id": "1-7c",
     "title": "SAPR — Reporting Options",
-    "expectation": "Recall key facts.",
+    "expectation": "Be familiar with the definitions of hazing, discrimination, fraternization, sexual harassment, and the Navy’s approach towards them. Know the reporting options for victims of sexual assault. ",
     "excerpt": {
       "Restricted": [
         "Confidential; no official investigation; command notified 'an assault' occurred (limited details, no name)",
@@ -630,7 +630,7 @@
   {
     "id": "2-1",
     "title": "Birthdates — USN & USMC",
-    "expectation": "Recall verbatim.",
+    "expectation": "Know the birthdates of the US Navy and US Marine Corps.",
     "excerpt": [
       "U.S. Navy — 13 October 1775",
       "U.S. Marine Corps — 10 November 1775"
@@ -644,7 +644,7 @@
   {
     "id": "2-2",
     "title": "Oath of Office",
-    "expectation": "Recall verbatim.",
+    "expectation": "Recall the Oath of Office verbatim.",
     "excerpt": "I, [name], do solemnly swear (or affirm) that I will support and defend the Constitution of the United States against all enemies, foreign and domestic; that I will bear true faith and allegiance to the same; that I take this obligation freely, without any mental reservation or purpose of evasion; and that I will well and faithfully discharge the duties of the office upon which I am about to enter. So help me God.",
     "examples": [
       "MIDN X, recite the Oath of Office."
@@ -653,30 +653,30 @@
   {
     "id": "2-3",
     "title": "Oath of Enlistment",
-    "expectation": "Recall verbatim.",
+    "expectation": "Know the Oath of Enlistment verbatim. Be able to explain the difference between the Oaths of Office and Enlistment and why it matters.",
     "excerpt": "I, [name], do solemnly swear (or affirm) that I will support and defend the Constitution of the United States against all enemies, foreign and domestic; that I will bear true faith and allegiance to the same, and that I will obey the orders of the President of the United States and the orders of the officers appointed over me, according to regulations and the Uniform Code of Military Justice. So help me God.",
     "examples": [
-      "MIDN X, recite the Oath of Enlistment.",
+      "MIDN X, recite the Oath of Enlistment."
     ]
   },
   {
     "id": "2-4",
     "title": "Differences — Officer vs Enlistment Oaths",
-    "expectation": "Recall key facts.",
+    "expectation": "Be able to explain the difference between the Oaths of Office and Enlistment and why it matters.",
     "excerpt": [
       "Both: support and defend the Constitution",
       "Enlisted: additionally swear to obey orders of POTUS and officers per regulations/UCMJ",
       "Officers: pledge to faithfully discharge duties of office (no 'obey orders' clause), binding them to the Constitution (safeguard vs. personal rule; responsibility/leadership focus)"
     ],
     "examples": [
-      "MIDN X, what is one major difference between the officer and enlisted oaths?",
+      "MIDN X, what is one major difference between the officer and enlisted oaths?"
     ]
   },
 
   {
     "id": "2-5",
     "title": "U.S. Navy Mission",
-    "expectation": "Recall verbatim.",
+    "expectation": "Recall the US Navy Mission verbatim. ",
     "excerpt": "The mission of the Navy is to maintain, train and equip combat-ready naval forces capable of winning wars, deterring aggression and maintaining freedom of the seas.",
     "examples": [
       "MIDN X, what is the mission of the United States Navy, verbatim?"
@@ -684,7 +684,7 @@
   },
   {
     "id": "2-6",
-    "title": "NROTC Mission",
+    "title": "Recall the NROTC Mission verbatim. ",
     "expectation": "Recall verbatim.",
     "excerpt": "To develop midshipmen mentally, morally and physically and to imbue them with the highest ideals of duty, and loyalty, and with the core values of honor, courage and commitment in order to commission college graduates as naval officers who possess a basic professional background, are motivated toward careers in the naval service, and have a potential for future development in mind and character so as to assume the highest responsibilities of command, citizenship and government.",
     "examples": [
@@ -694,7 +694,7 @@
   {
     "id": "2-7",
     "title": "Sailor’s Creed",
-    "expectation": "Recall verbatim.",
+    "expectation": "Recall the Sailor’s Creed verbatim.",
     "excerpt": [
       "I am a United States Sailor.",
       "I will support and defend the Constitution of the United States of America and I will obey the orders of those appointed over me.",
@@ -710,7 +710,7 @@
   {
     "id": "2-8a",
     "title": "NROTC Course Requirements — Naval Science",
-    "expectation": "Recall key facts.",
+    "expectation": "Be familiar with the required Naval Science courses and college class requirements applicable to you specifically.",
     "excerpt": {
       "4/C": ["Intro to Naval Science (Navy/USMC/Nurse)", "Sea Power & Maritime Affairs (Navy/USMC/Nurse)"],
       "3/C": ["Leadership & Management (All)", "Navigation (Navy)"],
@@ -766,7 +766,7 @@
   {
     "id": "3-1",
     "title": "Grooming Standards",
-    "expectation": "Recall key facts.",
+    "expectation": "Be familiar with grooming standards for both males and females. Know the hair regulations for both males and females. ",
     "excerpt": [
       "See NAVPERS 15665I, Article 2201 — Personal Appearance",
       "Pay special attention to hair standards"
@@ -778,7 +778,7 @@
   {
     "id": "3-2",
     "title": "Proper Uniform Wear",
-    "expectation": "Recall key facts.",
+    "expectation": "Demonstrate proper wear of the Service Khaki, Service Dress Blue, and Appropriate Civilian Attire (ACA). Know what constitutes ACAs for both males and females. ",
     "excerpt": {
       "Know_Items_for": [
         "Service Khaki (M/F)",
@@ -798,7 +798,7 @@
   {
   "id": "3-3",
   "title": "Billet Descriptions and Information",
-  "expectation": "Recall key duties for each billet.",
+  "expectation": "Demonstrate familiarity with the Boston NROTC Task Organization. Know what each of the members of Battalion and Company Staff do and which midshipmen fill those roles this semester. ",
   "excerpt": {
     "BnCO": ["Leads and trains battalion", "Sets command vision", "Represents MIDN to staff/admin"],
     "BnXO": ["Supervises staff ops", "Executes training plan", "Manages FITREP process"],

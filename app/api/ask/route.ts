@@ -1,5 +1,7 @@
+// app/api/ask/route.ts
 import OpenAI from "openai";
 import { randomPQS } from "@/lib/pqs";
+import type { ChatCompletionMessageParam } from "openai/resources/chat/completions"; // ✅ Add this import
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
@@ -22,11 +24,12 @@ Use the format: "MIDN" ${lastName}, <question>`;
       typeof item.excerpt === "object"
         ? JSON.stringify(item.excerpt, null, 2)
         : item.excerpt;
-//(Relative importance |X/10| at beggining of each)
+
+    // (Relative importance |X/10| at beggining of each)
     const user = `PQS Title: ${item.title}\nExpectation: ${item.expectation}\nExcerpt:\n${excerptText}\nExample: ${item.example}`;
 
-    // Build message array
-    const messages = [
+    // ✅ Explicitly typed messages array
+    const messages: ChatCompletionMessageParam[] = [
       { role: "system", content: system },
       { role: "user", content: user },
     ];
@@ -44,7 +47,7 @@ Use the format: "MIDN" ${lastName}, <question>`;
     const completion = await openai.chat.completions.create({
       model: "gpt-4o",
       temperature: 0.2,
-      messages,
+      messages, // ✅ typed correctly
     });
 
     const question = completion.choices?.[0]?.message?.content?.trim() ?? "";
